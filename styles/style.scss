@@ -4,6 +4,7 @@
 :root{
   --main-red: #C2110E;
   --main-pink: #F9E8E7;
+  --main-black: #0B0A0C;
 }
 
 /* GLOBAL RESET */
@@ -145,6 +146,7 @@ header{
   gap: 25px;
   padding-top: 40px;
   max-width: 100%;
+  padding-bottom: 40px;
 
   &__box{
     display: flex;
@@ -165,6 +167,7 @@ header{
     mask-repeat: no-repeat;
     -webkit-mask-size: auto;
     mask-size: auto;
+    transition: all 0.3s;
 
     &:hover{
       background-color: var(--main-red);
@@ -205,4 +208,68 @@ header{
   }
 }
 
+
+.subscribe{
+  background-color: var(--main-black);
+  padding-bottom: 40px;
+
+  &__title{
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  &__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: auto;
+    mask-size: auto;
+    transition: all 0.3s;
+
+    &:hover{
+      scale: 1.5;
+    }
+
+    &--delivery{
+      -webkit-mask-image: url(/utils/delivery.svg);
+      mask-image: url(/utils/delivery.svg);
+    }
+
+    &--value{
+      -webkit-mask-image: url(/utils/value.svg);
+      mask-image: url(/utils/value.svg);
+    }
+
+    &--commitment{
+      -webkit-mask-image: url(/utils/nocommitment.svg);
+      mask-image: url(/utils/nocommitment.svg);
+    }
+  }
+
+  &__text{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 15px;;
+    margin: 0;
+    font-weight: 400;
+  }
+}
 
