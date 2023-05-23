@@ -344,6 +344,36 @@ header{
   }
 }
 
+.usda-organic{
+  background-color: #F5F5F5;
+
+  &__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    gap: 45px;
+  }
+
+  &__img{
+    // padding:0 25px;
+    // width: 120px;
+    // height: 120px;
+    // background-color: #000;
+    // -webkit-mask-repeat: no-repeat;
+    // mask-repeat: no-repeat;
+    // -webkit-mask-size: auto;
+    // mask-size: auto;
+    // transition: all 0.3s;
+    // -webkit-mask-image: url(/utils/usda-organic-logo.svg);
+    // mask-image: url(/utils/usda-organic-logo.svg);
+  }
+
+  &__text{
+    max-width: 350px;
+  }
+}
+
 .splide{
   padding-top: 27px;
   background-color: var(--main-pink);

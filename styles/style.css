@@ -285,6 +285,20 @@ header .header-image::before {
   font-weight: 400;
 }
 
+.usda-organic {
+  background-color: #F5F5F5;
+}
+.usda-organic__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  gap: 45px;
+}
+.usda-organic__text {
+  max-width: 350px;
+}
+
 .splide {
   padding-top: 27px;
   background-color: var(--main-pink);
