@@ -283,4 +283,81 @@ header .header-image::before {
 .performance__text {
   max-width: 180px;
   font-weight: 400;
+}
+
+.splide {
+  padding-top: 27px;
+  background-color: var(--main-pink);
+  margin-bottom: 200px;
+}
+.splide__heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+.splide__red {
+  color: var(--main-red);
+}
+.splide__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 100px;
+}
+.splide__information {
+  flex: 1;
+}
+.splide__images {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+.splide__ingredient {
+  max-width: 130px;
+}
+.splide__ingredient--text {
+  text-align: center;
+}
+.splide__ingredient--img {
+  width: 130px;
+}
+.splide__button-box {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splide__add-to-cart {
+  color: #fff;
+  background-color: var(--main-black);
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px 100px;
+  cursor: pointer;
+}
+.splide__arrow {
+  top: auto;
+  bottom: 101px;
+  background: none;
+}
+.splide__arrow--next {
+  right: 45%;
+}
+.splide__arrow--prev {
+  left: 45%;
+}
+.splide__pagination {
+  bottom: 120px;
+}
+.splide__pagination__page {
+  background: rgba(204, 204, 204, 0);
+  border: 1px solid;
+}
+.splide__pagination__page.is-active {
+  background: #000;
+  transform: scale(1.2);
 }/*# sourceMappingURL=style.css.map */

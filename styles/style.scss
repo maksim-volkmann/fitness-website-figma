@@ -344,3 +344,98 @@ header{
   }
 }
 
+.splide{
+  padding-top: 27px;
+  background-color: var(--main-pink);
+  // padding-bottom: 150px;
+  margin-bottom: 200px;
+
+  &__heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  &__red{
+    color: var(--main-red)
+  }
+
+  &__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  &__information{
+    flex: 1;
+  }
+
+  &__images{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+
+  }
+
+  &__ingredient{
+    max-width: 130px;
+    &--text{
+      text-align: center;
+    }
+
+    &--img{
+      width: 130px;
+    }
+
+  }
+
+  &__button-box{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__add-to-cart{
+    color: #fff;
+    background-color: var(--main-black);
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px 100px;
+    cursor:pointer;
+  }
+
+  &__arrow{
+    top: auto;
+    bottom: 101px;
+    background: none;
+
+    &--next{
+      right: 45%;
+    }
+
+    &--prev{
+      left: 45%;
+    }
+  }
+
+  &__pagination{
+    bottom: 120px;
+  }
+
+  &__pagination__page {
+    background: #ccc0;
+    border: 1px solid;
+  }
+  &__pagination__page.is-active{
+    background: #000;
+    transform: scale(1.2);
+  }
+}
+
