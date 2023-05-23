@@ -277,7 +277,7 @@ header .header-image::before {
   mask-image: url(/utils/habit.svg);
 }
 .performance__img--metabolism {
-  -webkit-mask-image: url(utils/metabolism.svg);
+  -webkit-mask-image: url(./utils/metabolism.svg);
   mask-image: url(utils/metabolism.svg);
 }
 .performance__text {
