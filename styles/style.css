@@ -2,6 +2,7 @@
 /* Variables */
 :root {
   --main-red: #C2110E;
+  --main-pink: #F9E8E7;
 }
 
 /* GLOBAL RESET */
@@ -38,48 +39,46 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
-  display: flex;
-  justify-content: center;
 }
-body .container {
-  display: flex;
-  width: 1922px;
-  align-items: center;
-  justify-content: center;
+
+.container {
+  margin: 0 auto;
+  max-width: 1922px;
 }
-body .container header {
+
+header {
   width: 100%;
 }
-body .container header .navbar-row {
+header .navbar-row {
   display: flex;
   background-color: #F5F5F5;
   justify-content: space-evenly;
   align-items: center;
 }
-body .container header .navbar-row .navbar {
+header .navbar-row .navbar {
   width: 25%;
 }
-body .container header .navbar-row .navbar__list {
+header .navbar-row .navbar__list {
   display: flex;
   gap: 24px;
   list-style-type: none;
   padding: 0;
 }
-body .container header .navbar-row .navbar__item {
+header .navbar-row .navbar__item {
   color: green;
 }
-body .container header .navbar-row .navbar__link {
+header .navbar-row .navbar__link {
   font-size: 16px;
 }
-body .container header .navbar-row .logo {
+header .navbar-row .logo {
   font-weight: 700;
   font-size: 32px;
   padding: 20px 0;
 }
-body .container header .navbar-row .empty {
+header .navbar-row .empty {
   width: 25%;
 }
-body .container header .header-image {
+header .header-image {
   justify-content: center;
   background-image: url("../utils/main_img.png");
   background-repeat: no-repeat;
@@ -90,14 +89,14 @@ body .container header .header-image {
   flex-direction: column;
   align-items: center;
 }
-body .container header .header-image__title {
+header .header-image__title {
   text-transform: lowercase;
   color: #fff;
   white-space: pre;
   flex: 1;
   font-size: 48px;
 }
-body .container header .header-image__button {
+header .header-image__button {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 22px;
   margin-bottom: 50px;
@@ -105,10 +104,65 @@ body .container header .header-image__button {
   border-radius: 15px;
   padding: 11px 70px;
 }
-body .container header .header-image__button-link {
+header .header-image__button-link {
   color: #fff;
 }
-body .container header .header-image::before {
+header .header-image::before {
   content: "";
   flex: 1;
+}
+
+.motivations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 40px;
+  max-width: 100%;
+}
+.motivations__box {
+  display: flex;
+  width: 240px;
+  background-color: var(--main-pink);
+  border-radius: 15px;
+  padding: 25px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.motivations__img {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: auto;
+  mask-size: auto;
+}
+.motivations__img:hover {
+  background-color: var(--main-red);
+}
+.motivations__img--sleep {
+  -webkit-mask-image: url(/utils/sleep.svg);
+  mask-image: url(/utils/sleep.svg);
+}
+.motivations__img--immune {
+  -webkit-mask-image: url(/utils/immune-system.svg);
+  mask-image: url(/utils/sleep.svg);
+}
+.motivations__img--strength {
+  -webkit-mask-image: url(/utils/strength.svg);
+  mask-image: url(/utils/sleep.svg);
+}
+.motivations__img--digestion {
+  -webkit-mask-image: url(/utils/digetion.svg);
+  mask-image: url(/utils/sleep.svg);
+}
+.motivations__img:hover {
+  fill: var(--main-red);
+}
+.motivations__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
