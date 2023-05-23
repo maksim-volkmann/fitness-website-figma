@@ -273,3 +273,74 @@ header{
   }
 }
 
+.performance{
+  padding-bottom: 40px;
+
+  &__title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  &__box{
+    display: flex;
+    align-items: center;
+  }
+
+  &__img{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: auto;
+    mask-size: auto;
+    transition: all 0.3s;
+
+    &--endurance{
+      -webkit-mask-image: url(/utils/endurance.svg);
+      mask-image: url(/utils/endurance.svg);
+    }
+
+    &--energy{
+      -webkit-mask-image: url(/utils/energy.svg);
+      mask-image: url(/utils/energy.svg);
+    }
+
+    &--immune{
+      -webkit-mask-image: url(/utils/immune-health.svg);
+      mask-image: url(/utils/immune-health.svg);
+    }
+
+    &--taste{
+      -webkit-mask-image: url(/utils/energy.svg);
+      mask-image: url(/utils/energy.svg);
+    }
+
+    &--habit{
+      -webkit-mask-image: url(/utils/habit.svg);
+      mask-image: url(/utils/habit.svg);
+    }
+
+    &--metabolism{
+      -webkit-mask-image: url(utils/metabolism.svg);
+      mask-image: url(utils/metabolism.svg);
+    }
+  }
+
+  &__text{
+    max-width: 180px;
+    font-weight: 400;
+  }
+}
+
