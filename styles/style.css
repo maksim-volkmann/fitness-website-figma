@@ -172,8 +172,8 @@ header .header-image::before {
   background-color: var(--main-red);
 }
 .motivations__img--sleep {
-  -webkit-mask-image: url(fitness-website-figma/utils/sleep.svg);
-  mask-image: url(fitness-website-figma/utils/sleep.svg);
+  -webkit-mask-image: url(utils/sleep.svg);
+  mask-image: url(utils/sleep.svg);
 }
 .motivations__img--immune {
   -webkit-mask-image: url(fitness-website-figma/utils/immune-system.svg);
