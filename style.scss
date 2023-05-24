@@ -101,7 +101,7 @@ header{
 
   .header-image{
     justify-content: center;
-    background-image: url('../utils/main_img.png');
+    background-image: url('utils/main_img.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,7 +111,7 @@ header{
     align-items: center;
 
     @media (max-width: 1000px) {
-      background-image: url('../utils/tablet-main-img.jpg');
+      background-image: url('utils/tablet-main-img.jpg');
       height: 100vh;
     }
 
