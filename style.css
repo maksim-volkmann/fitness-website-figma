@@ -61,11 +61,27 @@ header .navbar-row {
 header .navbar-row .navbar {
   width: 25%;
 }
+header .navbar-row .navbar__mobile {
+  display: none;
+}
+header .navbar-row .navbar__mobile .material-symbols-outlined {
+  font-size: 40px;
+}
+@media (max-width: 600px) {
+  header .navbar-row .navbar__mobile {
+    display: block;
+  }
+}
 header .navbar-row .navbar__list {
   display: flex;
   gap: 24px;
   list-style-type: none;
   padding: 0;
+}
+@media (max-width: 600px) {
+  header .navbar-row .navbar__list {
+    display: none;
+  }
 }
 header .navbar-row .navbar__item {
   color: green;

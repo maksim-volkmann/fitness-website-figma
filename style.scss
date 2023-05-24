@@ -68,11 +68,27 @@ header{
       // width:50%;
       // background-color: red;
 
+      &__mobile{
+        display: none;
+
+        .material-symbols-outlined{
+          font-size: 40px;
+        }
+
+        @media (max-width: 600px) {
+          display: block;
+        }
+      }
+
       &__list{
         display: flex;
         gap: 24px;
         list-style-type: none;
         padding: 0;
+
+        @media (max-width: 600px) {
+          display: none;
+        }
       }
 
       &__item{
