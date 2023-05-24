@@ -37,7 +37,6 @@
         </button>
       </div>
     </header>
-
     <section class="motivations">
       <div class="motivations__box">
         <div class="motivations__img motivations__img--sleep"></div>
@@ -56,7 +55,6 @@
         <h4 class="motivations__title">Improves <br>digestion</h4>
       </div>
     </section>
-
     <section class="subscribe">
       <h2 class="subscribe__title">subscribe & save</h2>
       <div class="subscribe__row">
@@ -74,7 +72,6 @@
         </div>
       </div>
     </section>
-    
     <section class="performance">
       <h2 class="performance__title">Performance nutrition and healthy transformation made simple:</h2>
       <div class="performance__row">
@@ -112,8 +109,6 @@
     </section>
     <section class="splide" aria-labelledby="carousel-heading">
       <h2 class="splide__heading"><span class="splide__red">[product name]</span> blend</h2>
-    
-    
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
@@ -217,7 +212,6 @@
           </li>
         </ul>
       </div>
-
     </section>
     <section class="methodical-process">
       <h2 class="methodical-process__title">Meticulous Methodical Process</h2>
@@ -231,8 +225,6 @@
           </div>
 
         </div>
-        <!-- <div class="methodical-process__separator"></div> -->
-        <!-- <div class="methodical-process__box">bbb</div> -->
       </div>
       <div class="methodical-process__arrow-img">
         <img src="utils/arrow.png" alt="arrow">
@@ -244,10 +236,7 @@
             <h5 class="methodical-process__text-title">The problem</h5>
             <p class="methodical-process__text">our advisory panel reviews all of the scientific research in detail. Each ingredient must pass the rigorous approval process. Once approved, only then do our formulas move on to production.</p>
           </div>
-          <!-- <img class="methodical-process__problem-icon" src="/utils/problem-icon.svg" alt="problems"> -->
         </div>
-
-        <!-- <div class="methodical-process__box">bbb</div> -->
       </div>
       <div class="methodical-process__arrow-img methodical-process__arrow-img--rotate">
         <img src="utils/arrow.png" alt="arrow">
@@ -259,10 +248,8 @@
             <h5 class="methodical-process__text-title">That isn’t therapeutic</h5>
             <p class="methodical-process__text">roduction takes place in our GMP-compliant, state of the art manufacturing facility. Once again, only using 100% organic ingredients that have been verified by the USDA.</p>
           </div>
-          <!-- <img class="methodical-process__therapeutic-icon" src="/utils/therapeutic-icon.svg" alt="therapeutic"> -->
         </div>
-        <!-- <div class="methodical-process__separator"></div> -->
-        <!-- <div class="methodical-process__box">bbb</div> -->
+
       </div>
       <div class="methodical-process__arrow-img">
         <img src="utils/arrow.png" alt="arrow">
@@ -274,10 +261,7 @@
             <h5 class="methodical-process__text-title">The result</h5>
             <p class="methodical-process__text">Getting our formulas into the hands of people who need it most and transforming lives for the better. We believe in improving humankind by improving human performance. And that starts with nourishing your body with the right fuel.</p>
           </div>
-          <!-- <img class="methodical-process__result-icon" src="/utils/result-icon.svg" alt="results"> -->
         </div>
-
-        <!-- <div class="methodical-process__box">bbb</div> -->
       </div>
     </section>
 
@@ -336,34 +320,6 @@
       </div>
     </div>
   </section>
-
- 
-
-  <script>
-    document.addEventListener( 'DOMContentLoaded', function() {
-      var splide = new Splide( '.splide' );
-      splide.mount();
-    } );
-  </script>
-
- <!-- accordion -->
-<script>
-  var acc = document.getElementsByClassName("faq__accordion");
-  var i;
-  
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("faq__panel--active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
-  </script>
-
   <script src="splide.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>

@@ -34,18 +34,10 @@ a, a:visited, a:active{
   
 }
 
-/*
-
-font-family: 'Plus Jakarta Sans', sans-serif;
-
-*/
-
 body{
   margin: 0;
   padding: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  // display: flex;
-  // justify-content: center;
 }
 
 .container{
@@ -65,8 +57,6 @@ header{
 
     .navbar{
       width: 25%;
-      // width:50%;
-      // background-color: red;
 
       &__mobile{
         display: none;
@@ -97,14 +87,10 @@ header{
 
       &__link{
         font-size: 16px;
-        // color: var(--red-background-color);
       }
     }
 
     .logo{
-      // display: flex;
-      // width: 50%;
-      // text-align: center;
       font-weight: 700;
       font-size: 32px;
       padding: 20px 0
@@ -134,7 +120,6 @@ header{
     &__title{
       text-transform: lowercase;
       color: #fff;
-      // white-space: pre;
       flex: 1;
       font-size: 48px;
       max-width: 500px;
@@ -171,7 +156,6 @@ header{
   margin: 0 auto;
 
   @media (max-width: 600px) {
-    // flex: 0 0 45%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -187,14 +171,9 @@ header{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    // flex: 0 0 45%;
-    // flex-basis: 221px;
-    // flex-grow: 0;
-    // flex-shrink: 0;
 
 
     @media (max-width: 1000px) {
-      // flex: 0 0 45%;
       flex-direction: column;
     }
 
@@ -465,20 +444,6 @@ header{
     }
   }
 
-  &__img{
-    // padding:0 25px;
-    // width: 120px;
-    // height: 120px;
-    // background-color: #000;
-    // -webkit-mask-repeat: no-repeat;
-    // mask-repeat: no-repeat;
-    // -webkit-mask-size: auto;
-    // mask-size: auto;
-    // transition: all 0.3s;
-    // -webkit-mask-image: url(utils/usda-organic-logo.svg);
-    // mask-image: url(utils/usda-organic-logo.svg);
-  }
-
   &__text{
     max-width: 350px;
   }
@@ -487,8 +452,6 @@ header{
 .splide{
   padding-top: 27px;
   background-color: var(--main-pink);
-  // padding-bottom: 150px;
-  // margin-bottom: 200px;
 
   &__heading{
     text-align: center;
@@ -600,7 +563,6 @@ header{
 }
 
 .methodical-process{
-  // background-color: rgb(23, 115, 196);
   min-height: 840px;
   position: relative;
 
@@ -614,12 +576,9 @@ header{
   &__row--left{
     width: 900px;
     margin: 0 auto;
-    // height: 800px;
-    // border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    // position: relative;
     gap: 125px;
     text-align: right;
     padding-bottom: 35px;
@@ -646,12 +605,9 @@ header{
   &__row--right{
     width: 900px;
     margin: 0 auto;
-    // height: 800px;
-    // border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    // position: relative;
     gap: 125px;
     padding-bottom: 40px;
 
@@ -676,20 +632,12 @@ header{
   
 
   &__box{
-    // background-color: yellow;
     flex: 1;
     align-self: flex-start;
-    // position: relative;
-
-
   }
 
   &__text-box-left{
-    // background-color: green;
-    // text-align: right;
-
     position: relative;
-
 
     &::after{
       content: "";
@@ -730,9 +678,7 @@ header{
   }
 
   &__text-box-right{
-    // background-color: green;
     position: relative;
-    // text-align: right;
 
     &::after{
       content: "";
@@ -773,7 +719,6 @@ header{
   }
 
   &__text-title{
-    // background-color: red;
     padding: 0;
     margin: 0;
   }
@@ -943,7 +888,6 @@ header{
   &__panel{
     padding: 0 18px;
     display: none;
-    // background-color: white;
     overflow: hidden;
 
     &--active{
@@ -955,12 +899,6 @@ header{
     font-weight: bold;
   }
 }
-
-
-// .active, .accordion:hover {
-//   background-color: #ccc; 
-// }
-
 
 
 button.accordion:after {
