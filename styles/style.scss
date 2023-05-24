@@ -203,23 +203,23 @@ header{
     }
 
     &--sleep{
-      -webkit-mask-image: url(/utils/sleep.svg);
-      mask-image: url(/utils/sleep.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/sleep.svg);
+      mask-image: url(fitness-website-figma/utils/sleep.svg);
     }
 
     &--immune{
-      -webkit-mask-image: url(/utils/immune-system.svg);
-      mask-image: url(/utils/sleep.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/immune-system.svg);
+      mask-image: url(fitness-website-figma/utils/sleep.svg);
     }
 
     &--strength{
-      -webkit-mask-image: url(/utils/strength.svg);
-      mask-image: url(/utils/sleep.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/strength.svg);
+      mask-image: url(fitness-website-figma/utils/sleep.svg);
     }
 
     &--digestion{
-      -webkit-mask-image: url(/utils/digetion.svg);
-      mask-image: url(/utils/sleep.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/digetion.svg);
+      mask-image: url(fitness-website-figma/utils/sleep.svg);
     }
 
    
@@ -308,18 +308,18 @@ header{
     }
 
     &--delivery{
-      -webkit-mask-image: url(/utils/delivery.svg);
-      mask-image: url(/utils/delivery.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/delivery.svg);
+      mask-image: url(fitness-website-figma/utils/delivery.svg);
     }
 
     &--value{
-      -webkit-mask-image: url(/utils/value.svg);
-      mask-image: url(/utils/value.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/value.svg);
+      mask-image: url(fitness-website-figma/utils/value.svg);
     }
 
     &--commitment{
-      -webkit-mask-image: url(/utils/nocommitment.svg);
-      mask-image: url(/utils/nocommitment.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/nocommitment.svg);
+      mask-image: url(fitness-website-figma/utils/nocommitment.svg);
     }
   }
 
@@ -389,33 +389,33 @@ header{
     }
 
     &--endurance{
-      -webkit-mask-image: url(/utils/endurance.svg);
-      mask-image: url(/utils/endurance.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/endurance.svg);
+      mask-image: url(fitness-website-figma/utils/endurance.svg);
     }
 
     &--energy{
-      -webkit-mask-image: url(/utils/energy.svg);
-      mask-image: url(/utils/energy.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/energy.svg);
+      mask-image: url(fitness-website-figma/utils/energy.svg);
     }
 
     &--immune{
-      -webkit-mask-image: url(/utils/immune-health.svg);
-      mask-image: url(/utils/immune-health.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/immune-health.svg);
+      mask-image: url(fitness-website-figma/utils/immune-health.svg);
     }
 
     &--taste{
-      -webkit-mask-image: url(/utils/energy.svg);
-      mask-image: url(/utils/energy.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/energy.svg);
+      mask-image: url(fitness-website-figma/utils/energy.svg);
     }
 
     &--habit{
-      -webkit-mask-image: url(/utils/habit.svg);
-      mask-image: url(/utils/habit.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/habit.svg);
+      mask-image: url(fitness-website-figma/utils/habit.svg);
     }
 
     &--metabolism{
-      -webkit-mask-image: url(/utils/metabolism.svg);
-      mask-image: url(/utils/metabolism.svg);
+      -webkit-mask-image: url(fitness-website-figma/utils/metabolism.svg);
+      mask-image: url(fitness-website-figma/utils/metabolism.svg);
     }
   }
 
@@ -459,8 +459,8 @@ header{
     // -webkit-mask-size: auto;
     // mask-size: auto;
     // transition: all 0.3s;
-    // -webkit-mask-image: url(/utils/usda-organic-logo.svg);
-    // mask-image: url(/utils/usda-organic-logo.svg);
+    // -webkit-mask-image: url(fitness-website-figma/utils/usda-organic-logo.svg);
+    // mask-image: url(fitness-website-figma/utils/usda-organic-logo.svg);
   }
 
   &__text{
@@ -827,7 +827,7 @@ header{
     right: calc(50% - 47px);
     width: 95px;
     height: 642px;
-    background: url(/utils/separator.svg) center center no-repeat;
+    background: url(fitness-website-figma/utils/separator.svg) center center no-repeat;
 
     @media (max-width: 600px) {
       display: none;
