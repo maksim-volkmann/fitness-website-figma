@@ -176,16 +176,16 @@ header .header-image::before {
   mask-image: url(utils/sleep.svg);
 }
 .motivations__img--immune {
-  -webkit-mask-image: url(fitness-website-figma/utils/immune-system.svg);
-  mask-image: url(fitness-website-figma/utils/sleep.svg);
+  -webkit-mask-image: url(utils/immune-system.svg);
+  mask-image: url(utils/sleep.svg);
 }
 .motivations__img--strength {
-  -webkit-mask-image: url(fitness-website-figma/utils/strength.svg);
-  mask-image: url(fitness-website-figma/utils/sleep.svg);
+  -webkit-mask-image: url(utils/strength.svg);
+  mask-image: url(utils/sleep.svg);
 }
 .motivations__img--digestion {
-  -webkit-mask-image: url(fitness-website-figma/utils/digetion.svg);
-  mask-image: url(fitness-website-figma/utils/sleep.svg);
+  -webkit-mask-image: url(utils/digetion.svg);
+  mask-image: url(utils/sleep.svg);
 }
 .motivations__img:hover {
   fill: var(--main-red);
@@ -267,16 +267,16 @@ header .header-image::before {
   scale: 1.5;
 }
 .subscribe__img--delivery {
-  -webkit-mask-image: url(fitness-website-figma/utils/delivery.svg);
-  mask-image: url(fitness-website-figma/utils/delivery.svg);
+  -webkit-mask-image: url(utils/delivery.svg);
+  mask-image: url(utils/delivery.svg);
 }
 .subscribe__img--value {
-  -webkit-mask-image: url(fitness-website-figma/utils/value.svg);
-  mask-image: url(fitness-website-figma/utils/value.svg);
+  -webkit-mask-image: url(utils/value.svg);
+  mask-image: url(utils/value.svg);
 }
 .subscribe__img--commitment {
-  -webkit-mask-image: url(fitness-website-figma/utils/nocommitment.svg);
-  mask-image: url(fitness-website-figma/utils/nocommitment.svg);
+  -webkit-mask-image: url(utils/nocommitment.svg);
+  mask-image: url(utils/nocommitment.svg);
 }
 .subscribe__text {
   text-align: center;
@@ -342,28 +342,28 @@ header .header-image::before {
   }
 }
 .performance__img--endurance {
-  -webkit-mask-image: url(fitness-website-figma/utils/endurance.svg);
-  mask-image: url(fitness-website-figma/utils/endurance.svg);
+  -webkit-mask-image: url(utils/endurance.svg);
+  mask-image: url(utils/endurance.svg);
 }
 .performance__img--energy {
-  -webkit-mask-image: url(fitness-website-figma/utils/energy.svg);
-  mask-image: url(fitness-website-figma/utils/energy.svg);
+  -webkit-mask-image: url(utils/energy.svg);
+  mask-image: url(utils/energy.svg);
 }
 .performance__img--immune {
-  -webkit-mask-image: url(fitness-website-figma/utils/immune-health.svg);
-  mask-image: url(fitness-website-figma/utils/immune-health.svg);
+  -webkit-mask-image: url(utils/immune-health.svg);
+  mask-image: url(utils/immune-health.svg);
 }
 .performance__img--taste {
-  -webkit-mask-image: url(fitness-website-figma/utils/energy.svg);
-  mask-image: url(fitness-website-figma/utils/energy.svg);
+  -webkit-mask-image: url(utils/energy.svg);
+  mask-image: url(utils/energy.svg);
 }
 .performance__img--habit {
-  -webkit-mask-image: url(fitness-website-figma/utils/habit.svg);
-  mask-image: url(fitness-website-figma/utils/habit.svg);
+  -webkit-mask-image: url(utils/habit.svg);
+  mask-image: url(utils/habit.svg);
 }
 .performance__img--metabolism {
-  -webkit-mask-image: url(fitness-website-figma/utils/metabolism.svg);
-  mask-image: url(fitness-website-figma/utils/metabolism.svg);
+  -webkit-mask-image: url(utils/metabolism.svg);
+  mask-image: url(utils/metabolism.svg);
 }
 .performance__text {
   max-width: 180px;
@@ -729,7 +729,7 @@ header .header-image::before {
   right: calc(50% - 47px);
   width: 95px;
   height: 642px;
-  background: url(fitness-website-figma/utils/separator.svg) center center no-repeat;
+  background: url(utils/separator.svg) center center no-repeat;
 }
 @media (max-width: 600px) {
   .methodical-process__separator {
